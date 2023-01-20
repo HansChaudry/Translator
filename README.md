@@ -19,4 +19,10 @@
     in more than one region of the world, there is an option to select which region the voice is from.
 </p>
 
+<figure style="text-align: center">
+    <figcaption>
+        The user's experience when the using the app is showed above.
+    </figcaption>
+</figure>
+
 
