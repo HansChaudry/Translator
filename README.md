@@ -19,6 +19,8 @@
     in more than one region of the world, there is an option to select which region the voice is from.
 </p>
 
+[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+
 <figure style="text-align: center">
     <figcaption>
         The user's experience when the using the app is showed above.
