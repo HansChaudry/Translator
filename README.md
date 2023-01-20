@@ -19,7 +19,7 @@
     in more than one region of the world, there is an option to select which region the voice is from.
 </p>
 
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://github.com/HansChaudry/Translator/blob/30d5be0a01f2612f205b646633f0069af0839340/static/images/spanish.mp4)
 
 <figure style="text-align: center">
     <figcaption>
