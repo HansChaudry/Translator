@@ -1,29 +1,28 @@
-import random,json, urllib.request as urllib2
-def findVoice(langCode: str, gender:str, country:str)->str:
-    target_url = 'https://hanschaudry.github.io/personalProjects/Translator/voiceList.json'
-    response = urllib2.urlopen(target_url)
-    voices = json.loads(response.read())
-    
+import random
+import json
+
+def findVoice(langCode: str, gender: str, country: str) -> str:
+    with open('static/voiceList.json') as fp:
+        voices = json.load(fp)
+
     if gender == 'Select':
         gender = 'Female'
 
     def lang_check(voice):
         if country != 'Select':
-            return (langCode) in voice['Locale'] and voice['Gender'] == gender and country in voice['Language']
+            return langCode in voice['Locale'] and voice['Gender'] == gender and country in voice['Language']
         else:
-            return (langCode) in voice['Locale'] and voice['Gender'] == gender
+            return langCode in voice['Locale'] and voice['Gender'] == gender
 
     rlist = list(filter(lang_check, voices))
-    
     return random.choice(rlist)['Voice name']
 
-def findCountries(langcode:str)->list:
-    target_url = 'https://hanschaudry.github.io/personalProjects/Translator/voiceList.json'
-    response = urllib2.urlopen(target_url)
-    voices = json.loads(response.read())
+
+def findCountries(langcode: str) -> list:
+    with open('static/voiceList.json') as fp:
+        voices = json.load(fp)
 
     values = []
-
     for voice in voices:
         if langcode in voice['Locale']:
             country = voice['Language'].split(' ')[1:]
@@ -34,16 +33,15 @@ def findCountries(langcode:str)->list:
     values.sort()
     return values
 
+
 def getLanguages():
-    target_url = 'https://hanschaudry.github.io/personalProjects/Translator/voiceList.json'
-    response = urllib2.urlopen(target_url)
-    voices = json.loads(response.read())
+    with open('static/voiceList.json') as fp:
+        voices = json.load(fp)
 
     values = []
-
     for voice in voices:
         lang = [voice['Locale'].split('-')[0], voice['Language'].split(' ')[0]]
         if lang not in values:
             values.append(lang)
-    
+
     return values
