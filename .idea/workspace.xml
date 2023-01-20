@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbc4718-effb-4a47-beb3-82968f697d36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/Speech.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Translator.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voiceList.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/voiceList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,7 @@
       <workItem from="1674231990679" duration="242000" />
       <workItem from="1674232260984" duration="668000" />
       <workItem from="1674232946167" duration="8954000" />
-      <workItem from="1674243331441" duration="556000" />
+      <workItem from="1674243331441" duration="1428000" />
     </task>
     <servers />
   </component>
